@@ -14,7 +14,7 @@ handles perception, symbolic handles reasoning.
 Artifacts saved:
   models/credit_model.pt  — model state dict (PyTorch)
   models/scaler.pkl       — dict with StandardScaler + training median MSD
-  plots/training_loss.png — MSE loss curve over 50 epochs
+  plots/training_loss.png — MSE loss curve over 150 epochs
   plots/pred_vs_actual.png — scatter of predictions vs ground-truth on test set
 """
 
