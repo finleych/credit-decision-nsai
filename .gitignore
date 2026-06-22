@@ -1,26 +1,93 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
 .Python
-*.egg-info/
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual environment
-.venv/
-venv/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.envrc
+.venv
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Regeneratable artifacts — run the scripts to recreate these
-data/credit_data.csv
-models/credit_model.pt
-models/scaler.pkl
-plots/*.png
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
 
 # macOS
 .DS_Store
 
-# Jupyter
-.ipynb_checkpoints/
+# VSCode
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Project-specific — regeneratable artifacts (run the scripts to recreate)
+# ---------------------------------------------------------------------------
+data/credit_data.csv
+models/credit_model.pt
+models/scaler.pkl
+plots/*.png
