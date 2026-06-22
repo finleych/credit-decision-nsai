@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Regeneratable artifacts — run the scripts to recreate these
+data/credit_data.csv
+models/credit_model.pt
+models/scaler.pkl
+plots/*.png
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
