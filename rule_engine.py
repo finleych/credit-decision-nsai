@@ -273,7 +273,7 @@ SAMPLE_APPLICANTS = [
         "credit_mix_score": 3.0, "on_time_payment_streak": 4.0,
         "public_records": 0.0,
     },
-    # 7 — excessive debt + high DTI → DENY (rule 11)
+    # 7 — excessive debt + high DTI → DENY (rules 2 & 11)
     {
         "age": 52.0, "annual_income": 85_000.0, "employment_length_years": 18.0,
         "debt_to_income_ratio": 0.48, "num_credit_accounts": 10.0,

@@ -4,7 +4,7 @@ neural_model.py
 Stage 1 (Neural Perception) of the Neuro-Symbolic AI credit decision pipeline.
 
 Trains a multi-layer perceptron (MLP) in PyTorch to predict an applicant's
-credit score (300–850) from their 11 financial features. The model learns
+credit score (300–850) from their 18 financial features. The model learns
 non-linear relationships that would be hard to capture with hand-written rules.
 
 Its output — a continuous predicted score — feeds directly into Stage 2 (the
@@ -82,7 +82,7 @@ def train_model(
     model: CreditMLP,
     X_train: np.ndarray,
     y_train: np.ndarray,
-    epochs: int = 50,
+    epochs: int = 150,
     batch_size: int = 256,
     lr: float = 1e-3,
 ) -> list[float]:

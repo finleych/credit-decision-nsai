@@ -23,7 +23,8 @@ v2 changes (2026-06-23):
     on_time_payment_streak, public_records.
   - Updated compute_credit_score() weights to incorporate new features with
     weights roughly proportional to their real-world FICO importance.
-  - Increased noise σ from 0.25 → 0.40 for more realistic unpredictability.
+  - Noise σ tested at 0.40 but kept at 0.25 — rank→quantile transform amplifies
+    higher σ into score variance that drops R² below 0.70 (see compute_credit_score).
 """
 
 import numpy as np
